@@ -1,0 +1,13 @@
+# Конфигурация AcheSoldin
+check-location:
+  world: world
+  x: 0
+  y: 100
+  z: 0
+
+messages:
+  check-start: "&cВы вызваны на проверку читов! Модератор: %moderator%"
+  check-instructions: "&eУкажите ваш Discord с помощью /sds <ваш дискорд>"
+  check-released: "&aВы прошли проверку."
+  check-banned: "&cВы не прошли проверку и были забанены."
+  auto-ban: "&4Игрок %player% вышел во время проверки и был автоматически забанен."
