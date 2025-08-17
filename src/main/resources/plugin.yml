@@ -1,9 +1,0 @@
-name: Achesoldin
-main: ru.achesoldin.Achesoldin
-version: 1.0.0
-api-version: 1.16
-commands:
-  scheck:
-    description: Вызвать игрока на проверку
-  sds:
-    description: Указать свой Discord
