@@ -1,0 +1,41 @@
+# ###############
+# Разработчик Soldi_n .jar
+# ###############
+
+developer-name: "Soldi_n .jar"
+
+teleport-to-check-location: true
+
+check-location:
+  world: world
+  x: 100
+  y: 64
+  z: 100
+
+ban-command: "ban {player} {reason}"
+ban-reason-default: "sldn"
+
+check-duration-seconds: 60
+
+messages:
+  only-player: "&cЭту команду может использовать только игрок!"
+  no-permission: "&cУ вас нет прав!"
+  usage-scheck: "&eИспользование: /scheck <ник>"
+  usage-srelease: "&eИспользование: /srelease <ник>"
+  usage-sban: "&eИспользование: /sban <ник>"
+  player-not-found: "&cИгрок &e%player% &cне найден!"
+  world-not-found: "&cМир &e%world% &cне найден!"
+  check-start-player: "&cВы вызваны на проверку читов! Модератор: &e%moderator%"
+  check-start-moderator: "&aВы вызвали игрока &e%player% &aна проверку."
+  provide-discord: "&eУкажите ваш Discord: /sds <ваш_дискорд>"
+  discord-saved: "&aDiscord игрока &e%player% &aсохранён: &e%discord%"
+  already-under-check: "&cИгрок &e%player% &cуже на проверке."
+  not-under-check: "&cИгрок &e%player% &cсейчас не на проверке."
+  released-player: "&aВы освобождены с проверки."
+  released-moderator: "&aВы отпустили игрока &e%player%."
+  banned-moderator: "&cВы забанили игрока &e%player%."
+  auto-ban-quit: "&cИгрок &e%player% &cвышел во время проверки и был автоматически забанен (&e{reason}&c)."
+  title-main: "&cПроверка на читы"
+  title-sub: "&7Модератор: &e%moderator%"
+  actionbar-timer: "&eДо конца проверки: &6%seconds%s"
+

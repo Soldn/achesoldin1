@@ -1,0 +1,18 @@
+name: Achesoldin
+main: ru.achesoldin.Achesoldin
+version: 1.0.0
+api-version: 1.16
+author: Soldi_n
+commands:
+  scheck:
+    description: Вызвать игрока на проверку
+    usage: /scheck <ник>
+  sds:
+    description: Указать ваш Discord во время проверки
+    usage: /sds <ваш_дискорд>
+  srelease:
+    description: Отпустить игрока с проверки
+    usage: /srelease <ник>
+  sban:
+    description: Забанить игрока после проверки
+    usage: /sban <ник>
