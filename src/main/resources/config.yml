@@ -1,0 +1,10 @@
+# ###############
+# Разработчик Soldi_n .jar
+# ###############
+
+teleport-to-check-location: true
+check-location:
+  world: world
+  x: 100
+  y: 64
+  z: 100
